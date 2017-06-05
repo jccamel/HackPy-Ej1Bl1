@@ -30,6 +30,7 @@ class ARPPoisoning(threading.Thread):
             send(arpPacket, verbose=False, loop=1, iface=str(self.IFc))
         except:
             print "***************************************"
+            print "***************************************"
             print "Unexpected error:", sys.exc_info()[0]
 
 
